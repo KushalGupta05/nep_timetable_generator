@@ -291,10 +291,10 @@ const CurriculumManagement = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header 
+      {/* <Header 
         onMenuToggle={() => setSidebarOpen(!sidebarOpen)}
         isMenuOpen={sidebarOpen}
-      />
+      /> */}
       <Sidebar 
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}

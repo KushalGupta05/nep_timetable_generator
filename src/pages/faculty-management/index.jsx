@@ -178,10 +178,10 @@ const FacultyManagement = () => {
         <title>Faculty Management - NEP Timetable Generator</title>
         <meta name="description" content="Manage faculty profiles, availability, workload, and course assignments for efficient timetable generation." />
       </Helmet>
-      <Header 
+      {/* <Header 
         onMenuToggle={() => setSidebarOpen(!sidebarOpen)}
         isMenuOpen={sidebarOpen}
-      />
+      /> */}
       <Sidebar 
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}

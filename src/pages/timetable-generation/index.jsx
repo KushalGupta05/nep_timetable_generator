@@ -92,10 +92,10 @@ const TimetableGeneration = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header 
+      {/* <Header 
         onMenuToggle={() => setIsSidebarOpen(!isSidebarOpen)}
         isMenuOpen={isSidebarOpen}
-      />
+      /> */}
       <Sidebar 
         isOpen={isSidebarOpen}
         onClose={() => setIsSidebarOpen(false)}

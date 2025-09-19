@@ -33,7 +33,7 @@ const TimetableView = () => {
   const mockTimetableData = [
     {
       id: 1,
-      code: 'CS301',
+      code: 'CS309',
       name: 'Data Structures and Algorithms',
       day: 'Monday',
       timeSlot: '09:00 - 10:00',
@@ -61,6 +61,31 @@ const TimetableView = () => {
       code: 'CS302L',
       name: 'Data Structures Lab',
       day: 'Monday',
+      timeSlot: '10:00 - 11:00',
+      startTime: '10:00',
+      endTime: '12:00',
+      faculty: 'Prof. Priya Gupta',
+      facultyDepartment: 'Computer Science',
+      facultyEmail: 'priya.gupta@university.edu',
+      facultyPhone: '+91 98765 43211',
+      room: 'CS Lab 1',
+      roomCapacity: 30,
+      building: 'Academic Block B',
+      floor: 'First Floor',
+      facilities: 'Computers, Projector, AC',
+      type: 'lab',
+      category: 'Major',
+      credits: 2,
+      duration: 120,
+      studentEnrolled: true,
+      description: `Practical implementation of data structures concepts learned in theory. Students will code various data structures and algorithms using C++ programming language.`,
+      prerequisites: ['CS301 - Data Structures and Algorithms']
+    },
+    {
+      id: 2,
+      code: 'CS302L',
+      name: 'Data Structures Lab',
+      day: 'Tuesday',
       timeSlot: '10:00 - 11:00',
       startTime: '10:00',
       endTime: '12:00',
@@ -290,10 +315,10 @@ const TimetableView = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header 
+      {/* <Header 
         onMenuToggle={() => setIsSidebarOpen(!isSidebarOpen)}
         isMenuOpen={isSidebarOpen}
-      />
+      /> */}
       <Sidebar
         isOpen={isSidebarOpen}
         onClose={() => setIsSidebarOpen(false)}

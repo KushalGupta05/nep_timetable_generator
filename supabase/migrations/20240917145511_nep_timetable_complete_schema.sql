@@ -679,7 +679,7 @@ BEGIN
 
     -- Insert courses
     INSERT INTO public.courses (id, course_code, title, description, credits, course_type, category, program_id, department_id, semester, max_students, created_by) VALUES
-        (course1_uuid, 'CS301', 'Data Structures and Algorithms', 'Fundamental data structures including arrays, linked lists, stacks, queues, trees, and graphs.', 4, 'theory', 'major', program1_uuid, dept1_uuid, 5, 60, admin_uuid),
+        (course1_uuid, 'CS307', 'Data Structures and Algorithms', 'Fundamental data structures including arrays, linked lists, stacks, queues, trees, and graphs.', 4, 'theory', 'major', program1_uuid, dept1_uuid, 5, 60, admin_uuid),
         (course2_uuid, 'CS302L', 'Data Structures Lab', 'Practical implementation of data structures concepts learned in theory.', 2, 'practical', 'major', program1_uuid, dept1_uuid, 5, 30, admin_uuid),
         (course3_uuid, 'ENG201', 'Technical Communication', 'Development of technical writing and presentation skills for engineering professionals.', 2, 'theory', 'ability-enhancement', program1_uuid, dept2_uuid, 3, 50, admin_uuid);
 
